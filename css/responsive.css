@@ -56,6 +56,25 @@ For the .col-1, .col-2, and .col-3 selectors, set the width to 100%, left margin
 Remove the right border by setting .border-right border property to 0
 Set the #details div height to auto*/
 @media (max-width: 750px) {
-  
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  .col-3 p {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  .border-right {
+    border: 0
+  }
+
+#details div {
+  height: auto;
+}
 
 }
