@@ -26,6 +26,11 @@ Change the #logo h2 font size to 2.2em
 Adjust the top positioning on the #social selector to 72px
 Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/
 
+@media (max-width: 900px) {
+
+}
+
+
 
 /*Within this breakpoint:
 Set the font size of the #navbar nav a selector to 0.9em;
