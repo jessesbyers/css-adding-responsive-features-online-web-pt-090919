@@ -3,7 +3,7 @@ Add a breakpoint for 1108px in your responsive.css stylesheet
 Within this breakpoint:
 Set the width of the .wrapper class to 90%
 Change the #social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right*/
-@media (max-width: 992px) {
+@media (max-width: 1108px) {
  body {
    background-color: blue;
  }
