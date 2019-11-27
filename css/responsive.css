@@ -45,7 +45,6 @@ Change the col-3 p selector to have a column count of 2. Hint: look at the style
     -webkit-column-count: 2;
     column-count: 2;
   }
-
 }
 
 
@@ -56,3 +55,7 @@ Change the .col-3 p column count to 1
 For the .col-1, .col-2, and .col-3 selectors, set the width to 100%, left margin to 0, and float to none
 Remove the right border by setting .border-right border property to 0
 Set the #details div height to auto*/
+@media (max-width: 750px) {
+  
+
+}
