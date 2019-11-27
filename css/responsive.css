@@ -2,21 +2,26 @@
 Add a breakpoint for 1108px in your responsive.css stylesheet
 Within this breakpoint:
 Set the width of the .wrapper class to 90%
-Change the #social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right
+Change the #social selector to have an absolute position, with an automatic width, 82px from the top, and 4px from the right*/
+@media (max-width: 992px) {
+ body {
+   background-color: blue;
+ }
+}
 
 
-Add a breakpoint for tablets at 900px
+
+/*Add a breakpoint for tablets at 900px
 Add a breakpoint for 900px in your responsive.css stylesheet
 Within this breakpoint:
 Set the body text to a font size of 85%
 Change the #logo h1 to 35px for height and width
 Change the #logo h2 font size to 2.2em
 Adjust the top positioning on the #social selector to 72px
-Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!
+Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/
 
 
-Add a breakpoint for 750px
-Within this breakpoint:
+/*Within this breakpoint:
 Set the font size of the #navbar nav a selector to 0.9em;
 Change the .col-3 p column count to 1
 For the .col-1, .col-2, and .col-3 selectors, set the width to 100%, left margin to 0, and float to none
