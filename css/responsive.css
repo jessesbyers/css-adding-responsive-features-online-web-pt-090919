@@ -27,6 +27,24 @@ Adjust the top positioning on the #social selector to 72px
 Change the col-3 p selector to have a column count of 2. Hint: look at the style.css stylesheet and make sure you grab all three column-count attributes!*/
 
 @media (max-width: 900px) {
+  body {
+    font-size: 85%;
+  }
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+  #logo h2 {
+    font-size: 2.2em;
+  }
+  #social {
+    top: 72px
+  }
+  col-3 p {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
 
 }
 
